@@ -43,4 +43,4 @@ It's simple you have to press spacebar to jump. when you hit the pipes or hit th
 
 **README.md** A git formated readme file to present the project to you 
 
-**.git\\** Git information file (private repository: gitlab.com/Amiri_Shavaki/flappybird)
+**.git\\** Git information files (private repository: gitlab.com/Amiri_Shavaki/flappybird)
