@@ -19,13 +19,13 @@ It's simple you have to press spacebar to jump. when you hit the pipes or hit th
 
 ### How does each file\folder in the project?
 
-**bin\release\** An executable version of the project is located there and you can play the game from there. all of the pictures are placed there also.
+**bin\\release\\** An executable version of the project is located there and you can play the game from there. all of the pictures are placed there also.
 
-**obj\** Output objectfile (i.e main.o) stored there
+**obj\\** Output objectfile (i.e main.o) stored there
 
-**pictures\** This folder contains all of required images of the project
+**pictures\\** This folder contains all of required images of the project
 
-**requirements\** SDL2.dll stored there. what does this file is described above.
+**requirements\\** SDL2.dll stored there. what does this file is described above.
 
 **Bird.h** Bird class
 
@@ -43,4 +43,4 @@ It's simple you have to press spacebar to jump. when you hit the pipes or hit th
 
 **README.md** A git formated readme file to present the project to you 
 
-**.git** Git information file (private repository: gitlab.com/Amiri_Shavaki/flappybird)
+**.git\\** Git information file (private repository: gitlab.com/Amiri_Shavaki/flappybird)
