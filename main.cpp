@@ -54,7 +54,7 @@ int main(int argc, char *argv[]) {
             bird.jump();
         }
 
-        if ((bird+= VG) + BIRDHEIGHT >= GROUNDY) {
+        if ((bird += VG) + BIRDHEIGHT >= GROUNDY) {
             //Hit the ground
             window.blit(bgGameOver, 0, 0, SCREENWIDTH, SCREENHEIGHT);
             window.update();
