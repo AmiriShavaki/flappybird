@@ -1,7 +1,7 @@
 #ifndef HURDLE_H //Just check if this class decleared before
 #define HURDLE_H
 
-//Using c++ random number generator and SDL
+//Using c++ random number generator and SDL and max from algorithm
 #include <cstdlib>
 #include <ctime>
 #include <SDL.h>
@@ -34,8 +34,8 @@ const bool Hurdle::intersect(int x1, int y1, int x2, int y2) const {
     int rect1X1 = x, rect1Y1 = y, rect1X2 = x + PIPEWIDTH, rect1Y2 = y + PIPEHEIGHT; //Top pipe dimensions
     int rect2X1 = x, rect2Y1 = rect1Y2 + h, rect2X2 = x + PIPEWIDTH, rect2Y2 = rect2Y1 + PIPEHEIGHT; //Bottom pipe dimensions
 
-    bool rect1Intersect = !(rect1X1 > x2 || rect1X2 < x1 || rect1Y1 > y2 || rect1Y2 < y1);
-    bool rect2Intersect = !(rect2X1 > x2 || rect2X2 < x1 || rect2Y1 > y2 || rect2Y2 < y1);
+    bool rect1Intersect = !(rect1X1 > x2 || rect1X2 < x1 || rect1Y1 > max(y2, 0) || rect1Y2 < max(0, y1));
+    bool rect2Intersect = !(rect2X1 > x2 || rect2X2 < x1 || rect2Y1 > max(y2, 0) || rect2Y2 < max(y1, 0));
     return rect1Intersect || rect2Intersect;
 }
 

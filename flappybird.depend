@@ -373,3 +373,30 @@
 	<ctime>
 	<SDL.h>
 
+1586887673 source:c:\users\amiri\documents\ap\projects\ap_project_amiri_shavaki_98522148\flappybird\main.cpp
+	<iostream>
+	"Graphics.h"
+	"Bird.h"
+	<SDL.h>
+	"Score.h"
+	"Hurdle.h"
+	<ctime>
+
+1586802054 c:\users\amiri\documents\ap\projects\ap_project_amiri_shavaki_98522148\flappybird\graphics.h
+	<SDL.h>
+	<string>
+
+1586802487 c:\users\amiri\documents\ap\projects\ap_project_amiri_shavaki_98522148\flappybird\bird.h
+	<algorithm>
+	"Graphics.h"
+	"Hurdle.h"
+	"Score.h"
+
+1587048036 c:\users\amiri\documents\ap\projects\ap_project_amiri_shavaki_98522148\flappybird\hurdle.h
+	<cstdlib>
+	<ctime>
+	<SDL.h>
+
+1586800219 c:\users\amiri\documents\ap\projects\ap_project_amiri_shavaki_98522148\flappybird\score.h
+	"Graphics.h"
+
